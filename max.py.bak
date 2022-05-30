@@ -1,0 +1,7 @@
+#write a function which take list and return maximum number..
+list=[]
+n=int(input("enter the elements in list:"))
+for i in range(n):
+   w=int(input("enter an element:"))
+   list.append(w)
+print(max(list),end=" ")

@@ -1,0 +1,5 @@
+#write a program to find smallest number from a list:
+
+list=[1,2,3,45,67,34,56]
+result=min(list)
+print(result)

@@ -1,0 +1,11 @@
+#write a program to print largest number of an araay
+
+
+list=[]
+n=int(input("enter how many elements in a list :"))
+for i in range(n):
+   a=int(input("enter the element:"))
+   list.append(a)
+   print(list)
+   large=max(list)
+print("largest num:",large)

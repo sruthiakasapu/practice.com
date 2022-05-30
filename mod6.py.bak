@@ -1,0 +1,7 @@
+
+import random
+n=int(input("number of elements you want in a list"))
+numbers=range(1,100)
+population=random.sample(numbers,10)
+print(population)
+print(random.sample(population,n))

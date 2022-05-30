@@ -1,0 +1,8 @@
+f=open("demo1.txt",mode="w")
+f.write("101,'blake','male',11,75000")
+f.write("102,'miller','male',12,55000")
+f.write("103,'jhon','female',11,95000")
+f.close()
+f1=open("demo1.txt")
+print(f1.read())
+f1.close()

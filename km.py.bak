@@ -1,0 +1,7 @@
+#write a program to covert kilometer to meters
+#we know(km=0.621371)
+
+
+km=int(input("enter distance in kilometer:"))
+miles=(km*0.621371)
+print(format("km=",km,"miles=",miles))

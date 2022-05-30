@@ -1,0 +1,22 @@
+import random
+import os
+print("print a random tuple element:")
+tuple=('black','red','green','blue','pink')
+print(random.choice(tuple))
+
+print("print a random list element:")
+l=[1,2,3,4,5,9]
+print(random.choice(l))
+
+print("print a random set element:")
+set=(23,34,23,3,2,3,4,5,9)
+print(random.choice(set))
+
+print("print a random dict element:")
+d={"rahul": 23,"neelu": 34,"kavitha": 23,"harish": 34}
+a=random.choice(list(d))
+print(d[a])
+a=random.choice(list(d))
+print(d[a])
+a=random.choice(list(d))
+print(d[a])

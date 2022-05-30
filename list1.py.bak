@@ -1,0 +1,8 @@
+#write a function which create list with given range:
+
+list=[]
+s=int(input("enter start:"))
+e=int(input("enter end:"))
+for i in range(s,e+1):
+  list.append(i)
+  print(list,end=" ")
