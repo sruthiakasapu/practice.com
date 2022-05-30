@@ -1,0 +1,33 @@
+#SUBSTRACTION OF THE MATRIX
+
+r=int(input("enter rows in matrix:"))
+c=int (input("enter columns in a matrix:"))
+
+print("matrix1 values:")
+matrix1=[[int(input())for i in range(c)]for j in range(r)]
+
+print("matrix1:")
+for i in range(r):
+   for j in range(c):
+      print(format(matrix1[i][j],"<3"),end="")
+   print()
+   
+print("matrix2 values:")
+matrix2=[[int(input())for i in range(c)]for j in range(r)]
+
+print("matrix2:")
+for i in range(r):
+   for j in range(c):
+      print(format(matrix2[i][j],"<3"),end="")
+   print()  
+
+result=[[0for i in range(c)]for j in range(r)]
+for i in range(r):
+   for j in range(c):
+       result[i][j]=matrix1[i][j]+matrix2[i][j]
+
+print("result is:")
+for i in range(r):
+   for j in range(c):
+      print(format(result[i][j],"<3"),end="")
+   print()

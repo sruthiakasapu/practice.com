@@ -1,0 +1,7 @@
+#write a program to convert age to days
+
+age=int(input("enter your age:"))
+months=age*12
+days=age*365
+print("months:",months)
+print("days:"days)
