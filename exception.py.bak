@@ -1,0 +1,8 @@
+try:
+  print("hello")
+  print("good morning")
+  print(9/0)
+except(NameError):
+   print(variableis not defined)
+except:
+   print("error")

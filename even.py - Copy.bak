@@ -1,0 +1,10 @@
+#write a program to generate even number series::
+
+print("even number series:")
+i=0
+for i in range(0,900):
+  if(i%2==0):
+    i=i+2
+	print(format(i,"<3"),end=" ")
+  else:
+    continue

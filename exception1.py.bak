@@ -1,0 +1,12 @@
+
+try:
+   x=int(input("enter the elements in x:"))
+   y=int(input("enter the elements in y:"))
+   z=x/w
+   print(z)
+except (ZeroDivisionError):
+        print("y value can't be a zero..")
+except (ValueError):
+        print("enter numerical values")
+except:
+        print("error")

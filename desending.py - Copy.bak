@@ -1,0 +1,10 @@
+#write a program to print list elements in desending...
+
+n=int(input("enter the number of elements:"))
+a=[]
+for i in range(0,n):
+  element=int(input("enter the element:"))
+  a.append(element)
+print(a)
+a.sort(reverse=True)
+print(a)

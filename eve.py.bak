@@ -1,0 +1,11 @@
+s=input("enter a string with two words:")
+def compute():
+    x=list(s.split(" "))
+    a=x[0]
+    b=x[1]
+    p=a[0]
+    t=b[0]
+    print(p)
+    print(t)
+    print("true") if(p==t) else print("false")
+compute()
