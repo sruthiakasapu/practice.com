@@ -1,0 +1,8 @@
+#write a program to sort elements from the list according to the assending order
+
+n=int(input("enter the element"))
+a=[]
+for i in range(0,n):
+   element=input(("enter the values:"))
+   a.append(element)
+print(sorted(a))

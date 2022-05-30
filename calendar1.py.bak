@@ -1,0 +1,8 @@
+#if we want to set week starting at....
+
+import calendar
+year=int(input("enter year:"))
+month=int(input("enter month:"))
+calendar.setfirstweekday(calendar.sunday)
+my_call=calendar.month(year,month)
+print(my_call)

@@ -1,0 +1,16 @@
+a=[-1,150,190,170,-1,-1,160,180]
+list=[]
+for i in a:
+  if(i!=-1):
+   list.append(i) 
+s=sorted(list)   
+print(s)
+result=[]
+k=0
+for p in a:
+  if(i==-1):
+   result.append(i)
+  else:
+   result.append(s[k])
+   print(k)
+print(result)

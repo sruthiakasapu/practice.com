@@ -1,0 +1,12 @@
+n=int(input("number:"))
+sum=0
+while(n>0):
+   digit=n%10
+   sum=sum+(digit**3)
+   n=n//10
+print(sum)
+print(n)
+if(n==sum):
+    print("it is armstrong:")
+else:
+    print("it is not:")
