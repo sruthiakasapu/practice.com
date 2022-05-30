@@ -1,0 +1,5 @@
+#split the string
+
+s="iam a good child in my locality"
+result=s.split('')
+print(result)

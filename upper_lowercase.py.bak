@@ -1,0 +1,4 @@
+#write a program which take string and display it in:
+
+string=input("enter a string:")
+print(string.upper())

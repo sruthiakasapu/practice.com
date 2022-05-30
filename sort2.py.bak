@@ -1,0 +1,9 @@
+if __name__ == '__main__':
+    n = int(raw_input())
+    list=[]
+    arr = map(int, raw_input().split())
+    for i in arr:
+        if(i!=list):
+           list.append(i)
+           n=len(list)
+        print(n)

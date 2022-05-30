@@ -1,0 +1,4 @@
+#write a program to replace specific charecter in a string:
+
+s=input("enter a string:")
+print(s.replace("0","@"))

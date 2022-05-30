@@ -1,0 +1,22 @@
+r=int(input("enter the rows in matrix:"))
+c=int(input("enter the columns in matrix:"))
+
+print("enter matrix values:")
+matrix=[[int(input())for i in range(c)]for j in range(r)]
+
+print("matrix:")
+for i in range(r):
+   for j in range(c):
+      print(format(matrix[i][j],"<3"),end="")
+   print()
+
+result=[[0for i in range(r)]for j in range(c)]
+for i in range(c):
+   for j in range(r):
+       result[i][j]=matrix[j][i]
+
+print("result is:")
+for i in range(c):
+   for j in range(r):   
+      print(format(result[i][j],"<3"),end="")
+   print()

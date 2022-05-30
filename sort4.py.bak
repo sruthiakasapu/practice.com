@@ -1,0 +1,5 @@
+#write a program to sort words in an alphabetical order
+
+s=input("enter a string:")
+s.sort()
+print(" ".join(s))

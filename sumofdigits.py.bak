@@ -1,0 +1,9 @@
+n=int(input("enter the number:"))
+sum=0
+org=n
+while(n>0):
+   n=n%10
+   sum=sum+n
+   n=org//10
+   org=n
+print(sum)
