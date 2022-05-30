@@ -1,0 +1,6 @@
+x=input("enter string:")
+def compute():
+s=list(x.split(" "))
+compute()
+print(s[0][::-1],s[1][::-1])
+

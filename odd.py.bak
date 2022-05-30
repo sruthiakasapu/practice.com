@@ -1,0 +1,7 @@
+n=int(input("the odd number series upto the value:"))
+i=0
+for i in range(0,n+1):
+   if(i%2!=0):
+      print(format(i,"<3"),end="")
+   else:      
+      continue

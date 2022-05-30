@@ -1,0 +1,9 @@
+import mysql.connector
+conn=mysql.connector.connect(host="localhost",user="root",passwd="root")
+cur=conn.cursor()
+cur.execute("insert into database sweety values('ajay',90),('rahul',70)")
+for i in cur:
+    print(i)
+print(cur)
+
+

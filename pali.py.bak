@@ -1,0 +1,14 @@
+n=int(input("number:"))
+org=n
+temp=0
+p=0
+while(n>0):
+   n=n%10
+   p=n
+   print(p,end=" ")
+   n=org//10
+   org=n
+if(p==org):
+     print("it is a palindrome")
+else:
+     print("it is not a palindrome")

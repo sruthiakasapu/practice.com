@@ -1,0 +1,8 @@
+#WRITE A PROGRAM WHICH PERFOEM ADD,SUB,MUL,DIV OF TWO NUMBERS
+
+X=int(input("num 1:"))
+Y=int(input("num 2:"))
+print("addition:",x+y)
+print("substraction:",x-y)
+print("division:",x/y)
+print("multiplication:",x*y)

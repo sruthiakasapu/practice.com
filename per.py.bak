@@ -1,0 +1,16 @@
+n=int(input("no:"))
+sum=0
+i=1
+temp=n
+while(i<n):
+  if(temp%i==0):
+   sum=sum+i
+   i=i+1
+  else:
+   continue
+print(sum)
+if(sum==n):
+    print("it is perfect")
+else:
+    print("it is not perfect")
+      

@@ -1,0 +1,9 @@
+#write a program to print prime number series:
+
+lower=int(input("enter the lower interval:"))
+upper=int(input("enter the upper interval:"))
+for n in range(lower,upper+1):
+ for i in range(2,n):
+  if((n%i)==0):
+   break
+print(n)

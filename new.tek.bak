@@ -1,0 +1,11 @@
+number=10
+try:
+   x=int(input("enter a value"))
+   if(number>x):
+      print("number is too small")
+   elif(number<x):
+      print("number is too big")
+   else:
+      print("you guess it correctly..")
+   finally:
+      print(x)

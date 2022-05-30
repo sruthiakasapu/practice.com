@@ -1,0 +1,10 @@
+import pymysql
+con=pymysql.connect(host="localhost",user="root",passwd="root",database="sweety")
+cur1=con.cursor()
+cur1.execute("select * from emp where sal>60000")
+con.commit()
+cur1.execute("select * from emp")
+for p in cur1:
+   print(p)
+cur1.close()
+con.close()

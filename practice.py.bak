@@ -1,0 +1,61 @@
+x="hyderabad city"
+print(x[10:])
+print(x[10:14])
+print(x[-4:-1])
+print(x[::-1])
+
+print()
+print(x[ : :2])
+print(x[0:5])
+print()
+print()
+print()
+print(x.upper())
+print(x.lower())
+print(x.title())
+print(x.capitalize())
+print(x.find("city"))
+print(x.replace("city","town"))
+print(x.replace("hyderabad","bellampalli"))
+print(x)
+print()
+print()
+print(x.count("a"))
+print(x.count("ity"))
+print()
+print(x.swapcase())
+print(x.swapcase())
+print(x.swapcase(),sep=" ",end=""),print(x.swapcase())
+print()
+print()
+print()
+x="my {} is {} and im 16"
+print(x.format("name","sruthi"))
+print()
+print()
+
+a="harish is an {} in {}"
+print(a.format("employee","infotech"))
+
+print(a)
+a="harish infotech company"
+print(a.partition("company"))
+print(a.partition("harish"))
+
+print(a,len(a))
+print(a.find("harish"))
+
+sup="vijju,maya,joe,sneha"
+y=sup.split("@")
+print(y)
+
+print(sup.starstwith())
+
+
+x="Mahendra Singh Dhoni"
+print(max(x))
+print(min(x))
+print(x[1])
+
+
+

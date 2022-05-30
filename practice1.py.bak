@@ -1,0 +1,32 @@
+r= int(input("enter the number of rows in matrix:"))
+c= int(input("enter the number of cols in matrix:"))
+
+print("enter the values in a matrix1:")
+matrix1=[[int(input())for i in range(c)]for j in range(r)]
+
+print("matrix1 is:")
+for i in range(r):
+   for j in range(c):
+     print(format(matrix1[i][j],"<3"),end="")
+   print()
+	 
+print("enter the values in a matrix2:")
+matrix2=[[int(input())for i in range(c)]for j in range(r)]
+
+print("matrix2 is:")
+for i in range(r):
+   for j in range(c):
+     print(format(matrix2[i][j],"<4"),end="")	 
+    print()
+	 
+result=[[0for i in range(c)]for j in range(r)]
+for i in range(r):
+   for j in range(c):
+     result[i][j]=matrix1[i][j]+matrix2[i][j]
+	 
+print("result is:")
+for i in range(r):
+   for j in range(c):
+      print(format(result[i][j],"<4"),end="")	 
+   print()
+   

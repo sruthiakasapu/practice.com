@@ -1,0 +1,10 @@
+n=int(input("the prime number series upto the value:"))
+i=1
+print("prime number series:")
+while(i<=n):
+   for p in range(1,n):
+       if(i%p!=0):
+	       print(format(p,"<3"),end="")
+       else:
+          continue
+   break  

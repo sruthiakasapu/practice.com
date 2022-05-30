@@ -1,0 +1,10 @@
+n=int(input("enter the number:"))
+d=int(input("digits in a numbers:"))
+org=n
+i=0
+while(i<=d):
+   n=n%10
+   print(n,end=" ")
+   n=org//10
+   org=n
+   i=i+1

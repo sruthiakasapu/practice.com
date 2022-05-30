@@ -1,0 +1,16 @@
+import random
+import os
+print("print a random number:")
+num=[1,2,3,4,5,9]
+print(random.choice(num))
+print("print a random clr:")
+clr=["red","blue","green","orange","pink"]
+print(random.choice(clr))
+print("print multiples of 7 from 0 to 70")
+a=random.randint(1,9)
+print(a*7)
+print("print random alphabets")
+a=random.randint(64,110)
+print(chr(a))
+print("print values between two integers:")
+print(random.choice(2,8))

@@ -1,0 +1,10 @@
+list=[10,20,30,40,50]
+for i in list:
+  temp=i
+  small=1
+  if(temp>i):
+     temp=i
+     small=temp
+  else:
+     continue
+print("smallest number:",small)
